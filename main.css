@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#myBtn{
+	display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99;
+	background-color: aqua;/* Make sure it does not overlap */
+}
+
+.banner{
+	background-image: url("image/banner1.jpg"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	height: 100vh;
+	background-size: cover;
+
+	
+	
+}
+.noidung{
+	
+	padding-top: 20%;
+}
+.tieude{
+	font-size: 60px !important;
+	color: white;
+	font-weight: 700;
+}
+.nutbam{
+	padding: 20px 40px;
+}
+.icon{
+	width: 38px;
+}
+.chinhcard{
+	background-color: #fff0 !important;
+	border: none !important;
+	color: white;
+}
+.iconofso2{
+	height: 60px;
+}
+.caso2{
+	border: none !important;
+}
+.hinhanhcard{
+	width: 200px !important;
+	height: 150px !important;
+}
+.demonutbam{
+	border: none;
+	
+}
+.demonutbam:hover{
+	
+	border-top:solid 2px #FC0000;
+	
+}
+.testanh{
+	max-width: 100%;
+}
+.hinhphai{
+	background-image: url("image-24.jpg");
+	height: 500px;
+}
+.hihihi{
+	margin-left: 500px;
+	z-index: 100;
+}
+.me{
+	position: relative;
+	height: 400px;
+}
+.con{
+	position: absolute;
+	background-image: url("image-24.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 70%;
+	right: 0;
+}
+.chutrai{
+	position: relative;
+	z-index: 100;
+	width: 45%;
+	top:50px;
+	bottom: 50px;
+	height: 100px;
+	
+}
+.demohinh img{
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px){
+	.tieude{
+		font-size: 48px!important;
+		color:red;
+		
+	}
+	.nutbam{
+		padding: 10px 20px;
+	}
+	
+}
+
+input:focus {
+	outline-width: 0;
+	border-bottom: solid 1px #E71216 !important;
+}
+input{
+	color:aliceblue;
+	border: none;
+	border-bottom: solid 1px #797979;
+}
